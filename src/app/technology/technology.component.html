@@ -1,0 +1,24 @@
+<h3>Technology List</h3>
+<div>
+    <table class="table">
+        <thead>
+            <tr id=" fav-tr " class="text-center">
+                <td id="fav-label ">Order</td>
+                <td id="fav-label ">Name</td>
+                <td id="fav-label ">Description</td>
+                <td id="fav-label ">Comment</td>
+                <td id="fav-label ">Skill Level</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let technology of technology ">
+                <td id="fav-table " class="text-center">{{technology.order}}</td>
+                <td id="fav-table " class="text-center">{{technology.name}}</td>
+                <td id="fav-table " class="text-center">{{technology.description}}</td>
+                <td id="fav-table " class="text-center">{{technology.comment}}</td>
+                <td id="fav-table " class="text-center">{{technology.skilllevel}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

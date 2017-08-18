@@ -1,6 +1,6 @@
 <nav>
     <ul>
-        <li *ngFor="let menu of menus" title="{{menu.tooltip}}" [hidden]="!menu.visible">
+        <li *ngFor="let menu of menus" title="{{menu.tooltip}}" [ngStyle]="{'display': menu.visible ? 'inline' : 'none'}">
             <a routerLink="{{menu.navigateTo}}">{{menu.display}}</a></li>
 
     </ul>

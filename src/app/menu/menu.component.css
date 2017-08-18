@@ -2,7 +2,7 @@ nav {
     width: 100%;
     background-color: royalblue;
     margin: 0;
-    padding: 12px 0;
+    padding: 20px 0;
 }
 
 ul {}
@@ -15,7 +15,7 @@ li {
 a {
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 6px 15px 6px 15px;
 }
 
 a:hover {
